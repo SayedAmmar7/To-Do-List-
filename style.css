@@ -1,0 +1,33 @@
+
+body{
+  text-align: center;
+}
+
+
+      #task-list {
+        width: 500px;
+        margin: 0 auto;
+      }
+
+      li {
+        list-style: none;
+        margin-top: 10px;
+      }
+
+      input[type="text"] {
+        padding: 10px;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      input[type="button"] {
+        padding: 10px 20px;
+        background-color: rgb(22, 132, 168);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      input[type="button"]:hover{
+        background-color:  rgb(87, 171, 199);
+      }
