@@ -1,4 +1,7 @@
 # To-Do List Application
+
+![Web Page Image](image 1.png)
+
 This is a simple to-do list application made with JavaScript. You can use this app to keep track of your daily tasks and organize your schedule.
 
 Features
