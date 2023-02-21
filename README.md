@@ -1,16 +1,17 @@
 # To-Do List Application
 
-![Web Page Image](image 1.png)
+![](https://github.com/SayedAmmar7/To-Do-List-/blob/master/image%201.png)
+
 
 This is a simple to-do list application made with JavaScript. You can use this app to keep track of your daily tasks and organize your schedule.
 
 ## Features
--Add a new task
+- Add a new task
 - Mark a task as completed
 - Remove a task
 
 ## Getting Started
-- Installation
+### Installation
 - To use this app, you can simply download the source code and open the index.html file in your browser. Alternatively, you can clone this repository using the following    command:
 
 - bash
