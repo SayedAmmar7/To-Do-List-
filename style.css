@@ -39,17 +39,27 @@ main{
     list-style: none;
 
 }
+.done{
+    text-decoration: line-through;
+    background-color: black !important;
+    color: #dfe4ea !important ;
+    
+    
+}
 
-#to-do-box li{
+.to-do-box li{
+    position: relative;
     background-color: #182C61;
+     
     color: #25CCF7;
     padding: 10px;
     border-radius: 5px;
-    position: relative;
+    
     text-align: justify;
     padding-right: 30px;
     margin-top: 10px;
     user-select: none;
+   
 }
 #to-do-box li i {
     color: white;
@@ -57,9 +67,7 @@ main{
     right: 10px;
     top: 10px;
 }
-.done{
-    background-color: #2f3542;
-    color: #dfe4ea;
-    text-decoration: line-through;
-    
+.first-head{
+    margin-bottom: 10px;
+    text-align: center;
 }

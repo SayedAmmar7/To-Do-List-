@@ -1,22 +1,27 @@
-const taskInput = document.getElementById("task-input");
-const addTaskButton = document.getElementById("add-task-button");
-const taskListUL = document.getElementById("task-list-ul");
+const item = document.querySelector("#item");
+const toDoBox = document.querySelector("#to-do-box");
 
-addTaskButton.addEventListener("click", function() {
-  const taskValue = taskInput.value;
-  if (taskValue) {
-    addTask(taskValue);
-    taskInput.value = "";
-  }
-});
+item.addEventListener(
+    "keyup",
+    function(event){
+        if(event.key == "Enter"){
+            addtodo(this.value)
+            this.value = "";
+        }
+    }
+)
 
-function addTask(task) {
-  const taskLI = document.createElement("li");
-  taskLI.innerHTML = task + " <button>x</button>";
-  taskListUL.appendChild(taskLI);
-
-  const deleteButton = taskLI.querySelector("button");
-  deleteButton.addEventListener("click", function() {
-    taskLI.remove();
-  });
+const addtodo = (item) => {
+    const listitem = document.createElement("li");
+    listitem.innerHTML = `  ${item}
+    <i class="fa-solid fa-xmark"></i> `;
+listitem.addEventListener("click",
+function(){
+    this.classList.toggle("done")
+}
+)
+listitem.querySelector("i").addEventListener( "click", function(){
+    listitem.remove()
+})
+    toDoBox.appendChild(listitem)
 }
