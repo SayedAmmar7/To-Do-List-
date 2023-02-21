@@ -30,4 +30,4 @@ This is a simple to-do list application made with JavaScript. You can use this a
 If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [MIT License](LICENSE) file for details.
