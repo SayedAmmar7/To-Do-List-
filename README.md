@@ -18,7 +18,7 @@ This is a simple to-do list application made with JavaScript. You can use this a
 
 - bash
 - Copy code
-- git clone https://github.com/yourusername/your-repo-name.git
+- git clone https://github.com/SayedAmmar7/To-Do-List-
 ## Usage
 - To add a new task, simply type the task in the input field and press the Enter key. The new task will be added to the list.
 
